@@ -1,0 +1,181 @@
+.commission-container .bg-image {
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 10%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)),
+      url('../../Assets/Images/globalimages/sunrise.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 190px;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .commission-container .bg-text h1 {
+    font-weight: 700;
+  }
+  .commission-container .bg-text {
+    text-align: center;
+    line-height: 2;
+  }
+  .commission-container .bg-text p {
+    color: rgb(97, 94, 94);
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .commission-container .commission-note {
+    position: relative;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .commission-container .commission-note p {
+    margin-top: 10px;
+  
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(97, 94, 94, 0.99);
+  }
+  /* comssion row  */
+  /* .commission-images-row {
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    max-height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .commission-image-column {
+    margin-right: 6px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .commission-image-column img {
+    width: 65%;
+    max-height: 400px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .ecommission-image-column video {
+    width: 100%;
+    max-height: 400px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: auto;
+    margin-left: auto;
+  } */
+  .commission-images-row {
+    margin-right: auto;
+    margin-left: auto;
+    width: 65%;
+  
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 2rem;
+    gap: 7px;
+    margin-bottom: 5rem;
+  }
+  
+  .commission-image-column {
+    margin-right: 6px;
+    overflow-y: hidden;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .commission-container .commission-image-column img {
+    max-width: 100%;
+    max-height: 400px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .column:last-child {
+    padding-right: 0px;
+  }
+  .column:first-child {
+    padding-left: 5px;
+  }
+  .table-container {
+    text-align: center;
+    margin-top: 5rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .commission-container .bg-image {
+      height: 250px;
+    }
+  }
+  @media screen and (max-width: 920px) {
+    .commission-container::webkit-scrollbar {
+      display: none;
+    }
+    /* Hide scrollbar for IE, Edge add Firefox */
+    .commission-container {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  
+    .commission-container .bg-text {
+      top: 40%;
+      left: 50%;
+    }
+    .commission-container .hero-image-container h1 {
+      font-size: 1.5rem;
+    }
+    .commission-container .hero-image-container p {
+      font-size: 1rem;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .commission-container .bg-image {
+      width: 100%;
+    }
+    .commission-container .bg-text {
+      padding: 16px;
+    }
+    .commission-container .commission-note {
+      width: 85%;
+    }
+  
+    .commission-container .commission-images-row {
+      width: 95%;
+    }
+    .commission-container .commission-images-row img {
+      max-height: 200px;
+    }
+    .commission-container .hero-image-container h1 {
+      font-size: 1.4rem;
+    }
+  
+    .commission-images-row img {
+      max-height: 170px;
+    }
+  }
+  
+  @media screen and (max-width: 680px) {
+    .commission-container .bg-text {
+      width: 100%;
+    }
+  
+    .commission-container .hero-image-container p {
+      font-size: 1rem;
+    }
+    table {
+      width: 80%;
+    }
+  }
