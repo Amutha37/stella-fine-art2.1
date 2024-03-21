@@ -1,3 +1,7 @@
+
+Version 2.1 stella-fine-art
+
+
 # Getting Started with Create React App
 
 ### `npm run build`
