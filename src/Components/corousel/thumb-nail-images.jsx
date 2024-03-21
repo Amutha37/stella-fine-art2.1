@@ -11,6 +11,7 @@ function ThumbNailImages({ slides, currentSlide, status, PrintQuotes }) {
               src={item.image}
               alt={item.name}
               id={item.id}
+              loading="lazy"
               onClick={currentSlide}
             />
           </div>

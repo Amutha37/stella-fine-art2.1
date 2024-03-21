@@ -32,7 +32,7 @@ const Home = () => {
           </div>
           <div className="home-images-row">
             <div className="home-image-column">
-              <img src={kidsworkshop} alt="paintBrushes" />
+              <img src={kidsworkshop} alt="paintBrushes" loading="lazy" />
             </div>
           </div>
 

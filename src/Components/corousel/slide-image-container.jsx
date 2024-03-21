@@ -15,7 +15,7 @@ const SlideImageContainer = ({
           className="mySlides"
           style={status[index] ? { display: 'block' } : { display: 'none' }}
           key={index}>
-          {<img src={item.image} alt={item.name} />}
+          {<img src={item.image} alt={item.name} loading="lazy"/>}
         </div>
       ))}
 
