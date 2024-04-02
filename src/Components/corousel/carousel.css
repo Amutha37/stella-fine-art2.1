@@ -122,10 +122,14 @@ button {
 }
 /* thumbnail */
 .row {
-
+   max-height: 150px;
+  /* position: relative;
+  display: flex;
+  justify-content: center;
+  top: 2rem;  */
   margin-right: auto;
     margin-left: auto;
-    /* width: 65%; */
+    width: 100%;
   
     position: relative;
     display: flex;
@@ -134,30 +138,26 @@ button {
     /* gap: 7px; */
     margin-bottom: 5rem;
 }
-.row:after {
+/* .row:after {
   content: '';
   display: table;
   clear: both;
-}
+} */
 
 /* Six columns side by side */
-.column {
-  margin-right: 5px;
-  overflow-y: hidden;
-  overflow-x: scroll;
-  margin-right: 6px;
-  overflow-y: hidden;
-  /* margin-right: auto;
-  margin-left: auto; */
-}
+
 .column:last-child {
   margin-right: 0px;
+}
+.column {
+  margin-right: 2px;
+
 }
 .column img {
   max-width: 100%;
   max-height: 12rem;
   text-align: center;
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 
 /* Add a transparency effect for thumnbail images */
