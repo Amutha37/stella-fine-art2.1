@@ -54,19 +54,23 @@ const ArtistMessage = (
     </p>
     <div id="exhibitionNote">
       <h3>Exhibitions</h3>
-      <p>Sydney Royal Easter Show</p>
-      <p>Kookaburra Study</p>
-      <p>April 2022</p>
+      <p>March '24 - Sydney Royal Easter Show</p>
+      <p>March '23 - Sydney Royal Easter Show</p>
+      <p>November '22 - Rediscovering Camden</p>
+      <p>January '21 - Solo Exhibition, Arthouse Cafe Narellan</p>
+      <p>August '19 - Blue Mountains Art Prize</p>
+      {/* <p>Kookaburra Study</p>
+      <p>April 2022</p> */}
       <br></br>
-      <p>Solo Exhibition</p>
-      <p>Art House Cafe</p>
-      <p>Narellan</p>
-      <p>January 2021</p>
+      <h3>Workshops Attended</h3>
+      <p>Current - 6 weeks - The painterly portrait with Alain Picard</p>
+      <p>June '21 - 3 day painting live model workshop with Andrew Bonneau</p>
+      <p>Feb '20 - painting realism with Robyn Collier</p>
+      <p>March '18 to '21 - Oil classes and plein air painting - Christopher Vidal</p>
+     
       <br></br>
-
-      <p>Blue Mountains Art Prize</p>
-      <p>Budgies in love</p>
-      <p>August 2019</p>
+      <h3>Blue Mountains Art Prize</h3>
+      <p>Auguest '19 - Budgies in love</p>
     </div>
   </>
 );

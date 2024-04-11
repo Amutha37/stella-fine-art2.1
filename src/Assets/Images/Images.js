@@ -8,64 +8,78 @@
 // ];
 // Nature
 export const NatureImages = [
+  {
+    id: 1,
+    name: 'Ocean Waves in Jervis Bay',
+    size: '91cm(W) x 76cm(H)',
+    image: require('./nature/OceanWavesinJervisBay.jpg')  ,
+  },
+  {
+    id: 2,
+    name: 'Finding Peace Walking in Forest',
+    size: '41cm(W) x 29cm(H)',
+    image: require('./nature/FindingPeaceWalkinginForest.jpg')  ,
+  },
+  {
+    id: 3,
+    name: 'Wisteria Blooms',
+    size: '76cm(W) x 60cm(H)',
+    image: require('./nature/wisteriablooms.jpg')  ,
+  },
+  {
+    id: 4,
+    name: 'Lighthouse in Wollongong',
+    size: '40cm(W) x 51cm(H)',
+    image: require('./nature/LighthouseWollongong.jpg')  ,
+  },
+    
+   
     {
-      id: 1,
-      name: 'Lighthouse in Wollongong',
-      size: '40cm(W) x 51cm(H)',
-      image: require('./nature/LighthouseWollongong.jpg')  ,
-    },
-    {
-      id: 2,
-      name: 'Wisteria Blooms',
-      size: '76cm(W) x 60cm(H)',
-      image: require('./nature/wisteriablooms.jpg')  ,
-    },
-    {
-      id: 3,
+      id: 5,
       name: 'Caves beach',
       size: '75cm(W) x 50cm(H)',
       image: require('./nature/cavesbeach.jpg')  ,
     },
   
     {
-      id: 4,
+      id: 6,
       name: 'Minnamurra Falls',
       size: '23cm(W) x 30cm(H)',
       image: require('./nature/minnamurrafalls.jpg')  ,
     },
     {
-      id: 5,
+      id: 7,
       name: 'Glistening Waters',
       size: '30.5cm(W) x 23cm(H)',
       image: require('./nature/glisteningwaters.jpg')  ,
     },
   
     {
-      id: 6,
+      id: 8,
       name: 'Scenic Waters Hawaii',
       size: '30cm(W) x 30cm(H)',
       image: require('./nature/scenicwatershawaii.jpg')  ,
     },
     {
-      id: 7,
+      id: 9,
       name: 'Shining Gum Tree',
       size: '40cm(W) x 30cm(H)',
       image: require('./nature/shininggumtree.jpg')  ,
     },
     {
-      id: 8,
+      id: 10,
       name: 'The Lighthouse Wollongong',
       size: '18cm(W) x 13cm(H)',
       image: require('./nature/thelighthousewollongong.jpeg')  ,
     },
     {
-      id: 9,
+      id: 11,
       name: 'Serene Waters',
       size: '120cm(W) x 90cm(H)',
       image: require('./nature/serenewaters.jpg')  ,
     },
     {
-      id: 10,
+      id: 12,
       name: 'Beside Still Waters',
       size: '50cm(W) x 40cm(H)',
       image: require('./nature/besidestillwaters.jpg')  ,
@@ -123,62 +137,68 @@ export const NatureImages = [
   export const WildLifeImages = [
     {
       id: 1,
+      name: 'King Lion',
+      size: '40.5cm(W) x 50cm(H)',
+      image: require('./wildlife/kingLion.jpg')  ,
+    },
+    {
+      id: 2,
       name: 'Fearsome Warrior',
       size: '50cm(W) x 50cm(H)',
       image: require('./wildlife/fearsomeWarrior.jpg')  ,
     },
     {
-      id: 2,
+      id: 3,
       name: 'Major Mitchell Cockatoo',
       size: '40cm(W) x 50cm(H)',
       image: require('./wildlife/majorMitchellCockatoo.jpg')  ,
     },
     {
-      id: 3,
+      id: 4,
       name: 'Blue and Gold Macaw',
       size: '40cm(W) x 50cm(H)',
       image: require('./wildlife/blueandgoldmacaw.jpg')  ,
     },
     {
-      id: 4,
+      id: 5,
       name: 'Kookaburra Study by Bishal',
       size: '40cm(W) x 50cm(H)',
       image: require('./wildlife/kookaburrastudybybishal.jpg')  ,
     },
     {
-      id: 5,
+      id: 6,
       name: 'Lorikeets in Love',
       size: '15cm(W) x 15cm(H)',
       image: require('./wildlife/lorikeetsinlove.jpg')  ,
     },
   
     {
-      id: 6,
+      id: 7,
       name: 'Sulfar Crested Cockatoo in Fruit Tree',
       size: '76cm(W) x 51cm(H)x3.5cm(D)',
       image: require('./wildlife/sulfarcrestedcockatooinfruittree.jpg')  ,
     },
     {
-      id: 7,
+      id: 8,
       name: 'Green Parrot in Tree',
       size: '31cm(W) x 39cm(H)',
       image: require('./wildlife/greenparrotintree.jpg')  ,
     },
   
     {
-      id: 8,
+      id: 9,
       name: 'Silver-Gull by the Beach',
       size: '30cm(W) x 30cm(H)',
       image: require('./wildlife/silvergullbythebeach.jpg')  ,
     },
     {
-      id: 9,
+      id: 10,
       name: 'Majesty',
       size: '31cm(W) x 41cm(H)',
       image: require('./wildlife/majesty.jpg')  ,
     },
     {
-      id: 10,
+      id: 11,
       name: 'Baby Blue Sea Turtle',
       size: '30cm(W) x 30cm(H)',
       image: require('./wildlife/babyblueseaturtle.jpg')  ,
